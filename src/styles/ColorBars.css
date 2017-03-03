@@ -1,0 +1,26 @@
+.color-bar-enter {
+  transform: translateX(200px) scale(2);
+}
+
+.color-bar-enter.color-bar-enter-active {
+  transform: translateX(0) scale(1);
+  transition: transform 500ms;
+}
+
+.color-bar-leave {
+  opacity: 1;
+}
+
+.color-bar-leave.color-bar-leave-active {
+  opacity: 0;
+  transition: opacity 300ms;
+}
+
+.color-bar-appear {
+  transform: translateX(200px) scale(2);
+}
+
+.color-bar-appear.color-bar-appear-active {
+  transform: translateX(0) scale(1);
+  transition: transform 300ms;
+}

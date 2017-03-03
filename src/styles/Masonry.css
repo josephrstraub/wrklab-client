@@ -1,0 +1,15 @@
+.masonry-container {
+  width: 600px;
+  margin: auto;
+}
+
+.masonry {
+  column-count: 3;
+  column-gap: 1em;
+  width: 100%;
+}
+
+.item {
+  display: inline-block;
+  margin-bottom: 1em;
+}

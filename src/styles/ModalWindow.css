@@ -1,0 +1,84 @@
+.modal-content {
+  border-radius: 20px;
+  border: none;
+}
+
+.modal-header {
+  padding-top: 60px;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.modal-header p {
+  text-align: center;
+  color: rgba(0,0,0,.4);
+  margin-bottom: 60px;
+}
+
+.modal-body {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.modal-title {
+  text-align: center;
+  font-size: 24px;
+  color: #4EDFFF;
+}
+
+ul.modal {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+li.modal {
+  width: 70%;
+
+}
+
+input:last-child {
+  margin: 30px auto 60px auto;
+}
+
+input {
+  width: 70%;
+  margin: 0 auto 30px auto;
+  border: none;
+  border-bottom: 1px solid rgba(0,0,0,.2);
+  padding-bottom: 10px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.red {color: #FF1FA9;}
+.red::-webkit-input-placeholder {color: #FF1FA9;}
+.red:-moz-placeholder {color: #FF1FA9;}
+.red::-moz-placeholder {color: #FF1FA9;}
+.red:-ms-input-placeholder {color: #FF1FA9;}
+
+.blue {color: #4EDFFF;}
+.blue::-webkit-input-placeholder {color: #4EDFFF;}
+.blue:-moz-placeholder {color: #4EDFFF;}
+.blue::-moz-placeholder {color: #4EDFFF;}
+.blue:-ms-input-placeholder {color: #4EDFFF;}
+
+.purple {color: purple;}
+.purple::-webkit-input-placeholder {color: purple;}
+.purple:-moz-placeholder {color: purple;}
+.purple::-moz-placeholder {color: purple;}
+.purple:-ms-input-placeholder {color: purple;}
+
+.green {color: #16D400;}
+.green::-webkit-input-placeholder {color: #16D400;}
+.green:-moz-placeholder {color: #16D400;}
+.green::-moz-placeholder {color: #16D400;}
+.green:-ms-input-placeholder {color: #16D400;}
+
+.black::-webkit-input-placeholder {color: black;}
+.black:-moz-placeholder {color: black;}
+.black::-moz-placeholder {color: black;}
+.black:-ms-input-placeholder {color: black;}

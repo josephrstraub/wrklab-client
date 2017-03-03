@@ -1,0 +1,26 @@
+.price-enter {
+  transform: translate(200px, -200px);
+}
+
+.price-enter.price-enter-active {
+  transform: translate(0, 0);
+  transition: transform 500ms;
+}
+
+.price-leave {
+  opacity: 1;
+}
+
+.price-leave.price-leave-active {
+  opacity: 0;
+  transition: opacity 300ms;
+}
+
+.price-appear {
+  transform: translate(200px, -200px);
+}
+
+.price-appear.price-appear-active {
+  transform: translate(0, 0);
+  transition: transform 300ms;
+}

@@ -1,0 +1,37 @@
+.main-menu {
+	position: relative;
+}
+
+.main-menu-layer-2 ::-webkit-scrollbar-track {
+	background-color: transparent;
+}
+
+.main-menu-layer-2 .scroll-area > div{
+	visibility: hidden;
+}
+
+div, h3 {
+	text-align: center;
+}
+
+.main-menu-layer-appear {
+  transform: translate(300px, -150px) scale(.2);
+}
+
+.main-menu-layer-appear.main-menu-layer-appear-active {
+  transform: translate(0, 0) scale(1);
+  transition: transform 500ms;
+}
+
+.social-media-appear {
+  transform: translateY(-200px);
+}
+
+.social-media-appear.social-media-appear-active {
+  transform: translateY(0);
+  transition: transform 500ms;
+}
+
+.hidden-bar::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}

@@ -1,0 +1,81 @@
+.header {
+  margin-top: 50px;
+}
+
+.header .circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  display: inline-block;
+  position: relative;
+  z-index: 1100;
+  background-color: white;
+  -webkit-box-shadow: 0px 4px 26px -11px;
+  -moz-box-shadow: 0px 4px 26px -11px;
+  box-shadow: 0px 4px 26px -11px;
+}
+
+.hamburger-line {
+  width: 18px;
+  height: 2px;
+  margin: auto;
+  position: relative;
+  top: 17px;
+  transform-origin: 50% 50%;
+}
+
+.first {
+  background-color: #FF1FA9;
+  z-index: 10;
+}
+
+.second {
+  background-color: #4EDFFF;
+  margin: 4px auto;
+}
+
+.third {
+  background-color: #16D400;
+}
+
+.first.make-x {
+  animation-name: makeX1;
+  animation-duration: .5s;
+  animation-fill-mode: forwards;
+}
+.second.make-x {
+  animation-name: makeX2;
+  animation-duration: .5s;
+  animation-fill-mode: forwards;
+}
+.third.make-x {
+  display: none;
+}
+
+.first.make-hamburger {
+  animation-name: makeBurger1;
+  animation-duration: .5s;
+  animation-fill-mode: forwards;
+}
+.second.make-hamburger {
+  animation-name: makeBurger2;
+  animation-duration: .5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes makeX1 {
+  from {transform: translateY(0px) rotate(0deg);}
+  to {transform: translateY(6px) rotate(-45deg);}
+}
+@keyframes makeX2 {
+  from {transform: rotate(0deg);}
+  to {transform: rotate(45deg);}
+}
+@keyframes makeBurger1 {
+  from {transform: translateY(6px) rotate(-45deg);}
+  to {transform: translateY(0px) rotate(0deg);}
+}
+@keyframes makeBurger2 {
+  from {transform: rotate(45deg);}
+  to {transform: rotate(0deg);}
+}

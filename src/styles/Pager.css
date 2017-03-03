@@ -1,0 +1,45 @@
+.pager {
+  height: 400px;
+  width: 100%;
+  position: relative;
+  line-height: 400px;
+  margin-top: 8%;
+}
+
+.arrow-btn {
+  position: absolute;
+  top: 44%;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #FF1FA9;
+  border-radius: 100%;
+}
+
+.arrow-btn:first-of-type {
+  left: 0;
+  transition: transform .5s;
+}
+
+.arrow-btn:nth-of-type(2) {
+  right: 0;
+}
+
+.pager .fa {
+  position: absolute;
+  color: #4EDFFF;
+  top: 12px;
+  left: 12px;
+  font-size: 22px;
+}
+
+.hidden {
+  display: inline-block !important;
+  visibility: hidden;
+}
+
+.pager-img {
+  display: inline-block;
+  margin: auto;
+  max-width: 75%;
+}

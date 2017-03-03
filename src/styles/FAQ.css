@@ -1,0 +1,54 @@
+.accordion-container {
+	height: 300px;
+	overflow-y: auto;
+	padding-top: 25px;
+}
+
+.panel {
+	border: none;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	margin: 0;
+}
+
+.panel-heading {
+	background-color: transparent !important;
+	border: none;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+.panel-heading h4 {
+	display: inline-block;
+	text-align: left;
+	margin: 0 0 0 15px;
+}
+
+.panel-heading h4.collapsed:hover {
+	color: #4EDFFF;
+}
+
+.panel-heading > div {
+	text-align: left;
+}
+
+
+.panel-heading .fa-plus-circle {
+	color: #FF1FA9;
+}
+
+.panel-heading .fa-minus-circle {
+	color: #4EDFFF;
+}
+
+.panel-body {
+	text-align: left;
+	padding-top: 0;
+	padding-bottom: 40px;
+	padding-left: 42px;
+	color: rgba(0,0,0,.4);
+}
+
+h4.expanded {
+	color: #FF1FA9;
+}

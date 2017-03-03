@@ -1,0 +1,55 @@
+.dynamic-menu {
+  text-align: right;
+  margin-top: 10%;
+}
+
+.dynamic-menu div {
+  text-align: right;
+}
+
+.dynamic-menu .line {
+  display: inline-block;
+  height: 2px;
+  width: 30px;
+  background-color: white;
+}
+
+.dynamic-menu ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.dynamic-menu .line {
+  width: 30px;
+  height: 2px;
+  margin: auto;
+  position: relative;
+}
+
+.dynamic-menu .line.long {
+  width: 70px;
+  background-color: #FF1FA9;
+}
+
+.dynamic-menu li {
+  height: 12px;
+  line-height: 6px;
+  cursor: pointer;
+}
+
+
+.dynamic-menu .line.long:after {
+  content:'';
+  position:absolute;
+  top:-4px; bottom:-4px;
+  left:-10px; right:-10px;
+}
+
+
+.dynamic-menu .line.short:after {
+  content:'';
+  position:absolute;
+  top:-4px; bottom:-4px;
+  left:-10px; right:-10px;
+}

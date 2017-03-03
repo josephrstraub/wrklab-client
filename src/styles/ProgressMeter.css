@@ -1,0 +1,43 @@
+.progress-circle {
+  height: 15px;
+  width: 15px;
+  background-color: #7C4471;
+  border: 3px solid transparent;
+  border-radius: 100%;
+  box-shadow: 0 0 0 .5px white;
+  background-clip: content-box;
+  vertical-align: middle;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.progress-circle.active-process {
+  box-shadow: 0 0 0 .5px #4EDFFF;
+  background-color: #FF1FA9;
+  width: 25px;
+  height: 25px;
+}
+
+.tiny {
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  background-color: white;
+  border-radius: 100%;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.progress-meter h4 {
+  position: absolute;
+  left: 26px;
+  color: #FF1FA9;
+}
+
+.progress-meter .first-num {
+  left: 0px;
+}
+
+.progress-meter h4 {
+  transition: transform 3s;
+}

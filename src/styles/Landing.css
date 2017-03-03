@@ -1,0 +1,35 @@
+.landing h3 {
+  color: #FF1FA9;
+  text-align: left;
+}
+
+.landing p {
+  text-align: left;
+}
+
+.img-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container-fluid {
+  margin: 0;
+  padding-bottom: 50px;
+}
+
+.col-2 {
+  text-align: right;
+}
+
+.button-group button:first-child {
+  color: #FF1FA9;
+}
+
+.button-group button:nth-child(2) {
+  color: #16D400;
+}
+
+.button-group button:nth-child(3) {
+  color: #4EDFFF;
+}
